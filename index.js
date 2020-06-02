@@ -7,7 +7,7 @@ const welcomeChannelComment = "어서오세요.";
 const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
-  console.log('켰다.');
+  console.log('켰다.');s
 });
 
 client.on("guildMemberAdd", (member) => {
@@ -29,7 +29,7 @@ client.on("guildMemberRemove", (member) => {
 });
 
 client.on('message', (message) => {
-  if(message.author.bot) return;
+  if(message.author.bot) return;https://docs.google.com/forms/d/e/1FAIpQLSeML1ryT2hGc7LSnmza55Q7VTYgmcKNG-DbkvXvyj46-u-hbg/viewform
 
   if(message.content == 'ping') {
     return message.reply('pong');
