@@ -111,5 +111,5 @@ function changeCommandStringLength(str, limitLen = 8) {
   return tmp;
 }
 
-
-client.login(token);
+access_token = os.eniron["BOT_TOKEN"]
+client.login(access_token)
